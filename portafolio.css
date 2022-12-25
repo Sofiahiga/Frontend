@@ -1,43 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nunito+Sans&family=Nunito:wght@200;300;700;1000&family=Roboto+Mono:wght@500&family=Roboto:wght@100;300;400&display=swap');
 
 body {
-    background: linear-gradient(170.78deg, #D69510 -1.25%, #3110B5 -1.24%, #BC8029 40.43%, #3110B5 111.46%, #D69510 111.47%);
-    font-family: 'Montserrat', sans-serif;
+    background:  linear-gradient(170.78deg, #D69510 -1.25%, #3110B5 -1.24%, #BC8029 59.22%, #3110B5 110.89%, #D69510 111.47%);
     margin: 0;
     overflow-x: hidden;
     color: #F5F5F5;
 }
 
-.titulo {
-    padding: 10px 10px 5px 10px;
-    margin: 150px 5px 30px 80px;
-}
-
-.presentacion {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    font-size: 64px;
-    line-height: 78px;
-    text-shadow: black 1px 0 10px;
-
-}
-
-h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight:bold;
-    font-size: 40px;
-    text-shadow: black 1px 0 10px;
-}
-
-span {
-    color: #F2D676;
-}
+/* menu */
 
 .navbar {
-    padding: 5px 20px 5px 40px;
-    background: rgba(12, 11, 11, 0.3); 
+    padding: 0px 20px 0px 40px;
+    background: rgba(12, 11, 11, 0.804); 
 }
 
+.navbar-toggler {
+    background-color: #F2D676;
+}
 
 #menu-desplegable a {
     background: rgba(12, 11, 11, 0.3);
@@ -96,12 +75,48 @@ span {
 }
 
 
+
+/* presentacion */
+
+.titulo {
+    padding: 0;
+    margin-top: 250px;
+}
+
+.foto {
+    margin: 100px 0 30px 0px;
+
+}
+
+.presentacion {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 65px;
+    line-height: 85px;
+    text-shadow: black 1px 0 10px;
+
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+    font-size: 40px;
+    text-shadow: black 1px 0 10px;
+}
+
+span {
+    color: #F2D676;
+    text-shadow: black 1px 0 10px;
+}
+
+
+
 .sobre-mi {
     background: rgba(12, 11, 11, 0.3);
     border-radius: 10px;
     padding: 20px 20px 5px 20px;
     margin: 100px 0 0 0;
-    width: 800px;
+    /* width: 800px; */
     
 }
 
@@ -127,6 +142,7 @@ span {
 .amarillo {
     background: rgba(12, 11, 11, 0.3);
     border-radius: 10px;
+    text-shadow: black 1px 0 10px;
 }
 
 .fecha {
@@ -134,11 +150,12 @@ span {
 }
 
 .institucion {
-    font-weight: lighter;
+    font-weight:normal;
 }
 
 .institucion span {
     font-weight: bold;
+    font-size: 20px;
 }
 
 /* habilidades */

@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg fixed-top">
 
             <div class="container-fluid">
                 <div>
@@ -20,8 +20,8 @@
                     <img src="./imagenes/APLogo-20-20.png" alt="Logo" width="200" height="100" class="d-inline-block align-text-top">
                     </a>
                 </div>
-                <!-- Redes sociales -->
-                <div class="d-flex justify-content-end redes-sociales">
+                <!-- Menu -->
+                <div class="ms-auto redes-sociales">
                     <div class="btn-group dropstart">
                         <button type="button" class="navbar-toggler" data-bs-toggle="dropdown" aria-expanded="false">
                             <span class="navbar-toggler-icon"></span>
@@ -76,28 +76,33 @@
         </nav>
 
     </header>
+
+
     <!-- Acerca de mí -->
-    <main>
-      <div class="row justify-content-between">
-        <div class="col-3 titulo">
-          <h1 class="presentacion">Hola! soy <span>Sofi</span>, Desarrolladora Full Stack Jr.</h1>
-          <div class="sobre-mi">
+    <div class="container-fluid">
+      <div class="row intro ">
+        <div class="col col-lg-5 mx-5 ms-lg-auto titulo text-center text-md-start ">
+          <h1 class="presentacion text-break ">¡Hola! Soy <span>Sofi</span>, Desarrolladora web Full Stack Jr.</h1>
+          <div class="col-10 sobre-mi text-center text-md-start ">
             <h2>Acerca de <span>mí</span></h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, aliquid sed. Ipsum beatae distinctio sit rerum magni fugiat. Obcaecati aliquid nihil fuga similique perspiciatis, asperiores odio? Repellendus soluta eligendi necessitatibus?
             Possimus quae hic error iure eos, aliquid vero accusantium natus est quisquam labore rem tenetur nulla. Assumenda, quos. Ducimus fugit eos atque quia rem. Incidunt ab necessitatibus eligendi labore error.
             Hic consectetur, magnam obcaecati voluptatem ad enim laborum veniam iste fugit, ipsa suscipit dolores nulla omnis repellendus unde quos. Ipsum, quia itaque. Eum repellendus, sapiente reiciendis debitis numquam tenetur doloremque?</p>
 
           </div>
+        </div>
+        <div class="col col-md-6 foto d-none d-lg-block ">
+          <img src="./imagenes/d566aab1-4427-460e-9b31-28aa0c97425e.png" class="w-100 " alt="sofia">
+        </div>
+        
 
-      
-        </div>
-        <div class="col-6">
-          <img src="./imagenes/d566aab1-4427-460e-9b31-28aa0c97425e.png" class="img-fluid" alt="">
-        </div>
       </div>
 
-    </main>
+    </div>
 
+    
+
+    <!-- Formacion académica -->
     <main class="formacion-academica">
       <div class="col-12 ">
           <h2>
@@ -181,8 +186,8 @@
 <!-- Habilidades -->
 
 <main class="habilidades">
-  <div class="row d-flex justify-content-between">
-      <div class="col-5 duras">
+  <div class="row d-flex justify-content-between ">
+      <div class="col col-lg-5 duras">
           <h2>Habilidades <span>duras</span></h2>
           <div class="row">
               <div class="col">
@@ -246,7 +251,7 @@
           </div>
           
       </div>
-      <div class="col-5 blandas">
+      <div class="col col-lg-5 blandas">
           <h2>Habilidades <span>blandas</span></h2>
           <div class="row">
               <div class="col">
@@ -319,6 +324,8 @@
 
 
 </main>
+
+
 
     <!-- JS bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
