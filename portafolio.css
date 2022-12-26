@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nunito+Sans&family=Nunito:wght@200;300;700;1000&family=Roboto+Mono:wght@500&family=Roboto:wght@100;300;400&display=swap');
 
 body {
-    background:  linear-gradient(170.78deg, #D69510 -1.25%, #3110B5 -1.24%, #BC8029 59.22%, #3110B5 110.89%, #D69510 111.47%);
-    margin: 0;
+    background: linear-gradient(170.78deg, #3110B5 -1.24%, #46219F -1.23%, #BC8029 29.87%, #46219F 46.31%, #D69510 111.46%, #3110B5 111.47%);    margin: 0;
     overflow-x: hidden;
     color: #F5F5F5;
 }
@@ -16,6 +15,7 @@ body {
 
 .navbar-toggler {
     background-color: #F2D676;
+
 }
 
 #menu-desplegable a {
@@ -29,35 +29,11 @@ body {
 .redes-sociales {
     margin-right: 80px;
 }
-.bi-instagram {
-    background: #f09433; 
-    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
-    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
-    border-radius: 9px;
-    
+
+.redes-sociales a {
+    margin-left: 20px;
 }
 
-.bi-facebook {
-    border: solid 3px  #F2D676;
-    border-radius: 15px;
-    background: white;
-    
-}
-
-.bi-linkedin {
-    border: solid 3px #F2D676;
-    border-radius: 9px;
-    background: white;
-
-}
-
-.bi-github {
-    border: solid 3px #F2D676;
-    border-radius: 15px;
-    background: white;
-}
 
 .dropdown-menu {
     background: rgba(12, 11, 11, 0.7); 
@@ -74,9 +50,19 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.nav-link:hover {
+    color: #D69510;
+}
 
+.navbar-nav >  .nav-item > .nav-link:focus {
+    color: #F2D676;
+}
 
 /* presentacion */
+
+.banner {
+    background-image: url(./imagenes/usarbanner.jpg);
+}
 
 .titulo {
     padding: 0;
