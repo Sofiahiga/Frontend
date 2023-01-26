@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nunito+Sans&family=Nunito:wght@200;300;700;1000&family=Roboto+Mono:wght@500&family=Roboto:wght@100;300;400&display=swap');
 
 body {
-    background: linear-gradient(170.78deg, #3110B5 -1.24%, #46219F -1.23%, #BC8029 29.87%, #46219F 46.31%, #D69510 111.46%, #3110B5 111.47%);    margin: 0;
+    background: linear-gradient(170.78deg, #3110B5 -1.24%, #46219F -1.23%, #BC8029 29.87%, #46219F 46.31%, #D69510 111.46%, #3110B5 111.47%);    
+    margin: 0;
     overflow-x: hidden;
     color: #F5F5F5;
 }
@@ -56,6 +57,32 @@ body {
 
 .navbar-nav >  .nav-item > .nav-link:focus {
     color: #F2D676;
+}
+
+.login {
+    color: #F2D676;
+    background-color: #F5F5F5;
+}
+
+.modal-content{
+    background: rgba(12, 11, 11, 1);
+    color: #FFFFFF;
+    font-family: roboto;
+    font-weight: lighter;
+    border: solid 1px #BC8029;
+
+}
+
+.btn-close {
+    background-color: #BC8029;
+}
+
+.btn {
+    background-color: #F2D676;
+}
+
+.btn:hover {
+    background-color: #BC8029;
 }
 
 /* presentacion */
@@ -147,18 +174,20 @@ span {
 /* habilidades */
 
 .duras {
-    margin: 100px 0 0 0;
+    margin: 100px 0 100px 0;
     padding: 40px 100px 40px 100px ;
     background: rgba(12, 11, 11, 0.3);
-    border-radius: 0 10px 10px 0;
-
+    display: block;
+    text-align: center ;
 }
 
+
 .blandas {
-    margin: 100px 0 0 0;
+    margin: 100px 0 100px 0;
     padding: 40px 100px 40px 100px ;
     background: rgba(12, 11, 11, 0.3);
-    border-radius: 10px 0 0 10px;
+    display: block;
+    text-align: center ;
 }
 
 .barra {
@@ -167,4 +196,66 @@ span {
     height: 16px;
 
 }
+
+/* dashboard */
+
+.dashboard {
+    background: rgba(12, 11, 11, 0.5); 
+}
+
+.dashboard .row {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 180px;
+    margin-left: 80px;
+    text-shadow: black 1px 0 10px;
+
+
+}
+
+
+#list-home-list, #list-profile-list, #list-messages-list, #list-settings-list {
+    background-color: rgba(12, 11, 11, 0.4);
+    font-size: 1.5em;
+    color: #F2D676;
+}
+
+#list-home-list:focus{
+    background-color: #BC8029;
+    color: #FFFFFF;
+}
+
+#list-profile-list:focus {
+    background-color: #BC8029;
+    color: #FFFFFF;
+
+}
+
+#list-messages-list:focus {
+    background-color: #BC8029;
+    color: #FFFFFF;
+
+}
+
+#list-settings-list:focus {
+    background-color: #BC8029;
+    color: #FFFFFF;
+
+}
+    
+.items-editar{
+    background:  rgba(242, 214, 118, 0.26);
+    color: #FFFFFF;
+}
+
+
+
+
+.guardar {
+    background:  rgba(242, 214, 118, 0.26);
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
 
